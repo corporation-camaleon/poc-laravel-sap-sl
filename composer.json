@@ -10,7 +10,7 @@
         "laravel/framework": "^10.0",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
-        "realsoftgt/sap-b1-sl": "^0.2.0"
+        "realsoftgt/sap-b1-sl": "^0.2.3"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

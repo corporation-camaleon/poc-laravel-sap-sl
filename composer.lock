@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f18b11bbfb1b31d10fba085f5433002e",
+    "content-hash": "1760fdc021af1be8dc9a1e8e2e34e137",
     "packages": [
         {
             "name": "brick/math",
@@ -2945,16 +2945,16 @@
         },
         {
             "name": "realsoftgt/sap-b1-sl",
-            "version": "v0.2.0",
+            "version": "v0.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/realsoftgt/sap-b1-sl.git",
-                "reference": "af60fe6058b2671d3e74c1a5cc1daf5f2df016b3"
+                "reference": "ed5e680c14d7dd5aa61b4070bd37e9c730b4c5a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/realsoftgt/sap-b1-sl/zipball/af60fe6058b2671d3e74c1a5cc1daf5f2df016b3",
-                "reference": "af60fe6058b2671d3e74c1a5cc1daf5f2df016b3",
+                "url": "https://api.github.com/repos/realsoftgt/sap-b1-sl/zipball/ed5e680c14d7dd5aa61b4070bd37e9c730b4c5a2",
+                "reference": "ed5e680c14d7dd5aa61b4070bd37e9c730b4c5a2",
                 "shasum": ""
             },
             "require-dev": {
@@ -2979,9 +2979,9 @@
             "description": "SAPBOSL es el puente entre su desarrollo Laravel y SAP Business One Service Layer utilizando Laravel HTTP Client.",
             "support": {
                 "issues": "https://github.com/realsoftgt/sap-b1-sl/issues",
-                "source": "https://github.com/realsoftgt/sap-b1-sl/tree/v0.2.0"
+                "source": "https://github.com/realsoftgt/sap-b1-sl/tree/v0.2.3"
             },
-            "time": "2023-03-22T00:05:46+00:00"
+            "time": "2023-03-22T17:30:32+00:00"
         },
         {
             "name": "symfony/console",
