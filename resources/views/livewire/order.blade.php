@@ -17,20 +17,23 @@
                 @include('livewire.update')
             @endif
         </div>
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
                     @if (!$addOrder)
                         <button wire:click="addOrder()" class="btn btn-primary btn-sm float-right">Add New Order</button>
                     @endif
                     <div class="table-responsive">
-                        <table class="table">
+                        <table class="table table-striped table-hovered">
                             <thead>
                                 <tr>
                                     <th>DocEntry</th>
                                     <th>DocNum</th>
                                     <th>CardCode</th>
                                     <th>CardName</th>
+                                    <th>DocTotalSys</th>
+                                    <th>Address</th>
+                                    <th>Comments</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
@@ -48,6 +51,15 @@
                                         </td>
                                         <td>
                                             {{ $order->CardName }}
+                                        </td>
+                                        <td>
+                                            Q{{ number_format($order->DocTotalSys,2,",",".") }}
+                                        </td>
+                                        <td>
+                                            {{ $order->Address }}
+                                        </td>
+                                        <td>
+                                            {{ $order->Comments }}
                                         </td>
                                         <td>
                                             <button wire:click="editOrder({{ $order->DocEntry }})"
